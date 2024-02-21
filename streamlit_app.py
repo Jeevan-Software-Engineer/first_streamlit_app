@@ -66,7 +66,7 @@ def insert_row_snowflake(new_fruit):
       return "thanks for adding " + new_fruit
 add_fruit = streamlit.text_input('What fruit would you like to add ?')
 backk_from_function = insert_row_snowflake(add_fruit)
-    streamlit.dataframe(backk_from_function)
+    streamlit.test(backk_from_function)
 
 streamlit.stop()
   
